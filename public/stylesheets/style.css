@@ -1,8 +1,28 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(241, 217, 221);
 }
 
 a {
-  color: #00B7FF;
+  color: #ff5100;
+  background-color: rgba(26, 153, 100, 0.3);
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+h1 {
+  color: pink;
+  background-color: rgba(145, 183, 201, .5);
+  text-align: center;
+  font-size: 65px;
+  border: 2px solid rgb(255, 118, 202);
+}
+
+p{
+  text-align: center;
+  font-size: 30px; 
+
 }
