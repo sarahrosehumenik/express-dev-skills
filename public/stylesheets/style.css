@@ -14,7 +14,7 @@ a {
 }
 
 h1 {
-  color: pink;
+  color: rgb(192, 147, 149);
   background-color: rgba(145, 183, 201, .5);
   text-align: center;
   font-size: 65px;
@@ -25,4 +25,11 @@ p{
   text-align: center;
   font-size: 30px; 
 
+}
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+  background-color:rgba(145, 183, 201, .5);
+  color: rgb(255, 64, 30);
 }
