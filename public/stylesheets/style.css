@@ -1,9 +1,9 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rgb(241, 217, 221);
+   background-color: rgb(241, 217, 221); 
+ 
 }
-
 a {
   color: #ff5100;
   background-color: rgba(26, 153, 100, 0.3);
@@ -33,3 +33,17 @@ h3 {
   background-color:rgba(145, 183, 201, .5);
   color: rgb(255, 64, 30);
 }
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: red;
+}
+	
+li {
+  list-style: none;
+}
+

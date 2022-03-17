@@ -1,15 +1,14 @@
 var express = require('express');
 var router = express.Router();
-//all paths starts with /todos
-
 const skillsCtrl = require('../controllers/skills');
-router.get('/', skillsCtrl.index);
-router.get('/:id', skillsCtrl.show);
 
-// Sample route to explore req params
-// router.get('/:id', function(req, res) {
-//         console.log(req.params)
-//         res.send('check your console')
-// })
+
+router.get('/', skillsCtrl.index);
+router.get('/new', skillsCtrl.new);
+router.get('/:id', skillsCtrl.show);
+router.post('/', skillsCtrl.create);
+router.delete('/:id', skillsCtrl.delete);
+router.get('/:id/edit', skillsCtrl.edit);
+router.put('/:id', skillsCtrl.update);
 
 module.exports = router;
