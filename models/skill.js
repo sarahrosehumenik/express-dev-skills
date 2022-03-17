@@ -1,7 +1,7 @@
 const skills = [
-    {id: 125223, skill: 'Simping', done: true},
-    {id: 127904, skill: 'Building in Fortnite', done: false},
-    {id: 139608, skill: 'Twerking', done: false}
+    {id: 125223, skill: 'Simping'},
+    {id: 127904, skill: 'Building in Fortnite'},
+    {id: 139608, skill: 'Twerking'}
   ];
   
   module.exports = {
@@ -23,8 +23,9 @@ const skills = [
   }
   
   function deleteOne(id) {
+    id = parseInt(id)
     // Find the index based on the id of the todo object
-    const idx = skills.findIndex(skill => skill.id === parseInt(id));
+    const idx = skills.findIndex(skill => skill.id === id);
     skills.splice(idx, 1);
   }
   
