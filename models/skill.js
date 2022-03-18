@@ -1,7 +1,7 @@
 const skills = [
     {id: 125223, skill: 'Simping'},
     {id: 127904, skill: 'Building in Fortnite'},
-    {id: 139608, skill: 'Twerking'}
+    {id: 139608, skill: 'Twerking'},
   ];
   
   module.exports = {
@@ -15,6 +15,7 @@ const skills = [
 
 
   function update(id, skill) {
+    
     // Find the index based on the id of the todo object
     const idx = skills.findIndex(skill => skill.id === parseInt(id));
     // Ensure the id is copied over
